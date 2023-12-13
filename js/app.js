@@ -1,12 +1,7 @@
 let nomesInseridos = [];
 let nomesSorteados = [];
 let min = 4;
-for (let numero = 1; numero <= 100; numero++) {
-    let resto = numero % 5;
-    if (resto == 0) {
-        console.log(numero);
-    }
-}
+
 function adicionar () {
     let nomeAmigo = document.getElementById('nome-amigo').value;
     if (nomeAmigo == '') {
